@@ -1,0 +1,674 @@
+.user-register {
+  width: 1280px;
+  height: 1080px;
+  display: flex;
+  position: relative;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-register {
+  width: 1280px;
+  height: 550px;
+  display: flex;
+  position: relative;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-form-background {
+  position: absolute;
+  width: 480px;
+  height: 800px;
+  display: flex;
+  border-radius: 2px;
+
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(18, 18, 18, 0.653) 7px 10px 8px 2px;
+  background-color: rgba(45, 46, 46, 0.719);
+}
+
+.login-form-background {
+  position: absolute;
+  width: 480px;
+  height: 350px;
+  display: flex;
+  border-radius: 2px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(18, 18, 18, 0.644) 7px 10px 8px 2px;
+  background-color: rgba(45, 46, 46, 0.719);
+}
+
+.register-title {
+  position: absolute;
+  width: 1280px;
+  height: 100px;
+  color: aqua;
+  font-size: 40px;
+  top: 1px;
+  text-align: center;
+}
+
+.log-in-title {
+  position: absolute;
+  width: 1280px;
+  height: 100px;
+  color: aqua;
+  font-size: 40px;
+  top: 1px;
+  text-align: center;
+}
+
+label[for="username"] {
+  display: flex;
+
+  width: auto;
+  height: 25px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+input[id="username"] {
+  width: 450px;
+  height: 50px;
+  color: rgb(0, 231, 227);
+  font-size: 16px;
+  background-color: rgba(124, 123, 123, 0.342);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+label[for="register-mail"] {
+  display: flex;
+  width: auto;
+  height: 25px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+
+  margin-top: 20px;
+}
+input[id="register-mail"] {
+  width: 450px;
+  height: 50px;
+  color: rgb(0, 231, 227);
+  font-size: 16px;
+  background-color: rgba(124, 123, 123, 0.342);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+label[for="enter-pas"] {
+  display: flex;
+  width: auto;
+  height: 25px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+  margin-top: 20px;
+}
+input[id="enter-pas"] {
+  width: 450px;
+  height: 50px;
+  color: rgb(0, 231, 227);
+  font-size: 16px;
+  background-color: rgba(124, 123, 123, 0.342);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+label[for="confirm-pas"] {
+  display: flex;
+  width: auto;
+  height: 25px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+  margin-top: 20px;
+}
+input[id="confirm-pas"] {
+  width: 450px;
+  height: 50px;
+  color: rgb(0, 231, 227);
+  font-size: 16px;
+  background-color: rgba(124, 123, 123, 0.342);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+input[placeholder] {
+  padding-left: 10px;
+}
+
+.firstname-lastname {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.firstname {
+  display: flex;
+  flex-direction: column;
+}
+
+.lastname {
+  display: flex;
+  flex-direction: column;
+}
+
+label[for="firs-name-register"] {
+  width: auto;
+  height: 25px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+}
+input[id="firs-name-register"] {
+  width: 200px;
+  height: 50px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+  background-color: rgba(124, 123, 123, 0.342);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+label[for="last-name-register"] {
+  display: flex;
+  width: auto;
+  height: 25px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+}
+input[id="last-name-register"] {
+  width: 200px;
+  height: 50px;
+  color: rgb(255, 230, 1);
+  font-size: 16px;
+  background-color: rgba(124, 123, 123, 0.342);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+label[for="gender"] {
+  display: flex;
+  width: auto;
+  height: 25px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+  margin-top: 20px;
+}
+select[id="gender"] {
+  width: 90px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  background-color: rgba(124, 123, 123, 0.373);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.read-check {
+  display: flex;
+  width: 450px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label[for="read"] {
+  display: flex;
+  margin-left: 5px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+}
+input[id="read"] {
+  width: 15px;
+  height: 15px;
+}
+
+.receive-check {
+  display: flex;
+  width: 450px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+label[for="receive"] {
+  display: flex;
+  margin-left: 5px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+}
+input[id="receive"] {
+  width: 15px;
+  height: 15px;
+}
+
+.submit-reset {
+  width: 450px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.submit-register {
+  width: 100px;
+  height: 50px;
+  background-color: aqua;
+  box-shadow: rgb(13, 31, 28) 2px 3px 2px 1px;
+  border: none;
+  font-size: 16px;
+}
+
+.reset-register {
+  width: 100px;
+  height: 50px;
+  box-shadow: rgb(13, 31, 28) 2px 3px 2px 1px;
+  border: none;
+  font-size: 16px;
+}
+
+.submit-log-in {
+  display: flex;
+  width: 450px;
+  height: 50px;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.log-in {
+  width: 150px;
+  height: 50px;
+  color: rgb(20, 22, 22);
+  background-color: rgb(0, 238, 255);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+  border: none;
+  box-shadow: rgba(13, 31, 28, 0.721) 2px 3px 2px 1px;
+  border-radius: 2px;
+}
+.log-in:hover {
+  cursor: pointer;
+  background-color: rgb(255, 251, 0);
+}
+
+/* strats "my account" page style */
+
+.my-account {
+  width: 1280px;
+  height: 1080px;
+  margin: 50px auto;
+  display: flex;
+  box-shadow: rgba(16, 16, 16, 0.475) 5px 3px 10px 3px;
+}
+
+.left-account {
+  width: 400px;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  border-right: 5px solid rgb(53, 52, 52);
+}
+
+.myaccount-userphoto {
+  width: 400px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-background {
+  width: 290px;
+  height: 290px;
+  background-image: url("../images/user.png");
+  background-size: cover;
+  border: 5px solid rgb(5, 251, 255);
+  margin-top: 5px;
+  border-radius: 50%;
+  background-color: rgba(59, 56, 56, 0.332);
+  box-shadow: 2px 10px 10px 5px;
+}
+
+.user-name {
+  box-sizing: border-box;
+  width: 400px;
+  height: 80px;
+  text-align: center;
+  padding: 20px;
+
+  color: antiquewhite;
+  font-size: 35px;
+  background-color: rgba(45, 46, 46, 0.719);
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.account-manu {
+  width: 390px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(116, 119, 122, 0.108);
+  color: black;
+  margin-top: 25px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 5px;
+}
+
+.list-item {
+  width: 357px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  border-bottom: 5px solid rgba(33, 33, 33, 0.479);
+  padding-left: 20px;
+  font-family: "Do Hyeon", sans-serif;
+  margin-left: 5px;
+}
+
+.list-item:hover {
+  background-color: rgba(0, 251, 255, 0.795);
+  cursor: pointer;
+}
+
+.list-item1 {
+  width: 362px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 251, 255, 0.795);
+  border-bottom: 5px solid rgba(33, 33, 33, 0.829);
+  padding-left: 20px;
+  font-family: "Do Hyeon", sans-serif;
+  margin-left: 5px;
+}
+
+.list-item2 {
+  width: 362px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  padding-left: 20px;
+  font-family: "Do Hyeon", sans-serif;
+  margin-left: 5px;
+}
+.list-item2:hover {
+  cursor: pointer;
+  background-color: rgba(0, 251, 255, 0.795);
+}
+
+.acc-menu {
+  font-size: 18px;
+  color: aliceblue;
+  margin-left: 10px;
+}
+
+.acc-menu1 {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+}
+
+/* right side of account page */
+
+.right-account {
+  width: 880px;
+  height: 1080px;
+
+  padding-left: 50px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+.rightacc-title {
+  width: auto;
+  height: 100px;
+  margin-top: 130px;
+  font-size: 40px;
+  color: aqua;
+}
+
+.account-forms {
+  width: 800px;
+  height: 615px;
+
+  margin-top: 90px;
+  background-color: rgba(50, 48, 48, 0.232);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+label[for="first-name-acc"] {
+  width: auto;
+  height: 25px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+  margin-top: 20px;
+}
+
+input[id="first-name-acc"] {
+  width: 380px;
+  height: 50px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+  background-color: rgba(124, 123, 123, 0.342);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+label[for="last-name-register-acc"] {
+  display: flex;
+  width: auto;
+  height: 25px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+  margin-top: 20px;
+}
+
+input[id="last-name-register-acc"] {
+  width: 380px;
+  height: 50px;
+  color: rgb(255, 230, 1);
+  font-size: 16px;
+  background-color: rgba(124, 123, 123, 0.342);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.acc-phone-mail {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.mailform {
+  display: flex;
+  flex-direction: column;
+}
+
+.phoneform {
+  display: flex;
+  flex-direction: column;
+}
+
+label[for="account-mail"] {
+  width: auto;
+  height: 25px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+
+  margin-top: 20px;
+}
+input[id="account-mail"] {
+  width: 380px;
+  height: 50px;
+  color: rgb(0, 231, 227);
+  font-size: 16px;
+  background-color: rgba(124, 123, 123, 0.342);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+label[for="account-phone"] {
+  display: flex;
+  width: auto;
+  height: 25px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+
+  margin-top: 20px;
+}
+input[id="account-phone"] {
+  width: 380px;
+  height: 50px;
+  color: rgb(0, 231, 227);
+  font-size: 16px;
+  background-color: rgba(124, 123, 123, 0.342);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.data-location {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.data-form {
+  width: auto;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-form {
+  width: auto;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+label[for="account-data"] {
+  display: flex;
+  width: auto;
+  height: 25px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+  margin-top: 20px;
+}
+input[id="account-data"] {
+  width: 380px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  background-color: rgba(124, 123, 123, 0.373);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+label[for="location-select"] {
+  display: flex;
+  width: auto;
+  height: 25px;
+  color: rgb(152, 152, 151);
+  font-size: 18px;
+  font-family: "Do Hyeon", sans-serif;
+  margin-top: 20px;
+}
+select[id="location-select"] {
+  width: 380px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  background-color: rgba(124, 123, 123, 0.373);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.notify {
+  display: flex;
+  width: 380px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.notify-text {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+}
+
+.save-button {
+  margin-top: 80px;
+  display: flex;
+  width: 800px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.save {
+  color: antiquewhite;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  background-color: rgba(0, 200, 255, 0.697);
+  border: none;
+}
+
+.save:hover {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  background-color: rgba(251, 255, 0, 0.697);
+}
