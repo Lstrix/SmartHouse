@@ -1,14 +1,11 @@
 @media only screen and (max-width: 770px) {
   body {
-    background-image: linear-gradient(
-      to left,
-      #003b4b,
-      #012c35,
-      #002d40,
-      #022737,
-      #0d3852,
-      #03141c
-    );
+      background: linear-gradient(
+    90deg,
+    rgb(2, 0, 32) 5%,
+    rgba(9, 72, 92, 0.989) 69%,
+    rgb(1, 157, 188) 100%
+  );
     overflow-x: hidden;
   }
 
