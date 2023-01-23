@@ -566,7 +566,7 @@
     height: 170px;
     position: relative;
     margin: 1px auto;
-
+display: none;
     display: flex;
     justify-content: space-between;
   }
