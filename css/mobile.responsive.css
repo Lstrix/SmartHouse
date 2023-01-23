@@ -1,19 +1,13 @@
 @media only screen and (max-width: 500px) {
   body {
-    background-image: linear-gradient(
-      to left,
-      #003b4b,
-      #012c35,
-      #002d40,
-      #022737,
-      #0d3852,
-      #03141c
-    );
-    overflow-x: hidden;
+    background-color: #00404b;
+    max-width: 500px;
+    width: 100vw;
+    margin: 0 auto;
   }
 
   .page {
-    width: 440px;
+    max-width: 440px;
     width: 100%;
     align-items: center;
     margin: 0 auto;
