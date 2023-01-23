@@ -858,29 +858,29 @@ display: none;
     height: 200px;
     border: 1 px solid white;
     margin: 30px auto;
-    gap: 26px;
+    gap: 5px;
     margin-left: 20px;
   }
 
   .offer1 {
-    width: 210px;
+    width: 195px;
     height: 200px;
     border-radius: 2px;
     opacity: 80%;
     background-color: rgba(255, 255, 255, 0.738);
     box-shadow: rgb(21, 21, 21) 5px 8px 5px;
     background-image: url("../images/offer1.png");
-    background-size: 210px 200px;
+    background-size: 195px 200px;
   }
   .offer2 {
-    width: 210px;
+    width: 195px;
     height: 200px;
     border-radius: 2px;
     opacity: 80%;
     background-color: rgba(255, 255, 255, 0.738);
     box-shadow: rgb(21, 21, 21) 5px 8px 5px;
     background-image: url("../images/offer2.png");
-    background-size: 210px 200px;
+    background-size: 195px 200px;
   }
   .offer3 {
     width: 210px;
