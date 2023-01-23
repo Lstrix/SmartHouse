@@ -2,6 +2,7 @@
   body {
     background-color: #012b32;
     max-width: 500px;
+    width: 500px;
     width: 100vw;
     margin: 0 auto;
   }
@@ -50,6 +51,7 @@
     margin: 0 auto;
     align-items: center;
   }
+
 
   .lefttopmenu {
     width: 150px;
