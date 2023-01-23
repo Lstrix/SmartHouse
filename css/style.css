@@ -12,6 +12,9 @@ body {
     rgb(1, 157, 188) 100%
   );
   overflow-x: hidden;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .page {
